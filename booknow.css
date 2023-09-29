@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+sans');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    padding-bottom: 50px;
+
+}
+
+@media (max-width: 500px) {
+
+    .nav.active li {
+
+        font-size: 70%;
+    }
+
+    img{
+        width: 1005%;
+    }
+
+    .Classic h2 {
+        font-size: 50%;
+    }
+
+    .Classic2 h2 {
+        font-size: 50%;
+    }
+
+    .Classic3 h2 {
+        font-size: 50%;
+    }
+
+    .But {
+
+        background-color: #28647F;
+        border-radius: 12px;
+        margin: 20px;
+        border-color: #fff;
+        color: #2970DB;
+        margin: 70px;
+        padding: 17px 50px;
+        text-align: ;
+        display: inline-block;
+        cursor: pointer;
+        font-family: 'Bricolage Grotesque', sans-serif;
+        text-decoration: none;
+        font-size: 10%;
+
+    }
+
+         footer {
+             font-size: 0.4rem;
+         }
+    
+         footer h1 {
+             font-size: 2.0rem;
+         }
+
+}
+
+
+
+
+container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .4s ease-in-out;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all .4s ease-in-out;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all .4s ease-in-out;
+
+}
+
+.nav.active {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.nav.active a {
+    color: #000;
+}
+
+.nav.active .container {
+    padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+    color: #2970DB;
+    font-weight: bold;
+}
+
+.logo {
+    font-family: 'Arsenal', sans-serif;
+}
+
+.hero img {
+    width: 55%;
+    height: 103vh;
+}
+
+.Images img {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 75%;
+    width: 50%;
+}
+
+.Classic h2 {
+    position: absolute;
+    top: 25%;
+    left: 68%;
+    color: grey;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+
+.Classic2 h2 {
+    position: absolute;
+    top: 40%;
+    left: 68%;
+    font-size: 300%;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.Classic3 h2 {
+    position: absolute;
+    top: 60%;
+    left: 68%;
+    font-size: 250%;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.But {
+
+    background-color: #28647F;
+    border-radius: 12px;
+    margin: 20px;
+    border-color: #fff;
+    color: #2970DB;
+    margin: 70px;
+    padding: 17px 50px;
+    text-align: ;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    right: 8%;
+    top: 70%;
+    font-size: 150%;
+
+}
+
+.But a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer h1 {
+    font-family: 'Arsenal', sans-serif;
+    position: absolute;
+    top: 130%;
+    color: #2970DB;
+    left: 3%;
+}
+
+footer h2 {
+    position: absolute;
+    top: 160%;
+    left: 3%;
+    color: #333;
+
+}
+
+
+footer ul {
+    font-size: 140%;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    position: absolute;
+    top: 170%;
+    left: 3%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #222;
+}
+
+.footer2 h2 {
+    position: absolute;
+    top: 160%;
+    left: 30%;
+}
+
+.footer2 ul {
+    font-size: 140%;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    position: absolute;
+    top: 170%;
+    left: 30%;
+}
+
+.footer3 ul {
+    font-size: 140%;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 170%;
+    left: 55%;
+
+}
